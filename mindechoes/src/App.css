@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Montserrat';
+  font-weight: 600;
+  background-color:azure;
+}
+
+.container{
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.section1{
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testbtn{
+  background-color: #31B699;
+  color: azure;
+  padding: 20px 50px;
+  font-size: 25px;
+  margin: 25px;
+  border-color: #31B699;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.section1img{
+  height: 450px;
+  width: 450px;
+}
+
+p{
+  font-family: "Style Script", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: larger;
+}
