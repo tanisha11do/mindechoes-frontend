@@ -10,18 +10,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: azure;
 }
 
 ul{
     list-style: none;
     text-align: center;
     flex: 1;
+    margin-left: 400px;
 }
 
 ul li{
     display: inline-block;
     justify-content:flex-end;
-    margin: 10px 10px 10px 100px;
+    margin: 10px 20px 10px 100px;
     align-items:end;
     font-size: 20px;
     cursor: pointer;
@@ -29,4 +31,8 @@ ul li{
 
 .signup{
     color: #31B699;
+}
+
+.signup:hover{
+    color:#146453;
 }
