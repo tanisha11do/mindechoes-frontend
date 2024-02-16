@@ -1,0 +1,18 @@
+.dropdown{
+    height:20px;
+}
+
+.dropdown-menu{
+    width:50px;
+    text-align: left;
+    color: #000;
+    background-color: azure;
+    position: relative;
+}
+
+.dropdown-list{
+    position: absolute;
+    left:0;
+    text-align: left;
+    width: 100%;
+}
