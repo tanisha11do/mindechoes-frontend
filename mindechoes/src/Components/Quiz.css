@@ -10,6 +10,11 @@
     padding: 40px 50px;
 }
 
+h1{
+    text-align: center;
+    color:#31B699;
+}
+
 body{
     background-color: azure;
 }
@@ -43,4 +48,9 @@ body{
 
 .index{
     margin: auto;
+}
+
+span{
+    color:#31B699;
+    font-size: 50px;
 }

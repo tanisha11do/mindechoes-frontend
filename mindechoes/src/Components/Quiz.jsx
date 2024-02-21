@@ -87,6 +87,7 @@ const handleAnswerButtonClick = () => {
   return (
     <>
     <Navbar></Navbar>
+    <h1>We hope you are doing well :D</h1>
     <div className='container2'>
         <h2>{questions[currentQuestion].questionText}</h2>
         <ul>
@@ -94,7 +95,7 @@ const handleAnswerButtonClick = () => {
               <li onClick={handleAnswerButtonClick}>{answerOption.answerText}</li>
             ))}
         </ul>
-        <div className='index'>{currentQuestion + 1} of {questions.length} Questions</div>
+        <div className='index'><span>{currentQuestion + 1}</span> / {questions.length} Questions</div>
     </div>
     </>
     
