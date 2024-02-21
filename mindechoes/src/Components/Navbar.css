@@ -13,14 +13,14 @@
     background-color: azure;
 }
 
-ul{
+.navbar ul{
     list-style: none;
     text-align: center;
     flex: 1;
     margin-left: 400px;
 }
 
-ul li{
+.navbar ul li{
     display: inline-block;
     justify-content:flex-end;
     margin: 10px 20px 10px 100px;

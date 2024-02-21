@@ -9,7 +9,6 @@ const Navbar = () => {
         <ul>
             <li>About us</li>
             <li><Dropdown></Dropdown></li>
-            <li>Log in</li>
             <li className='signup'>Sign up</li>
         </ul>
     </div>
