@@ -87,7 +87,7 @@ const handleAnswerButtonClick = () => {
   return (
     <>
     <Navbar></Navbar>
-    <h1>We hope you are doing well :D</h1>
+    <h1 id='quiz'>We hope you are doing well :D</h1>
     <div className='container2'>
         <h2>{questions[currentQuestion].questionText}</h2>
         <ul>
