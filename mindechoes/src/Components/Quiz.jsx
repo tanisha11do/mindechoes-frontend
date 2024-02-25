@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import Navbar from './Navbar'
 import './Quiz.css'
+import Loginsign from './Loginsign'
+import { Link } from 'react-router-dom';
 export default function Quiz() {
   const questions = [{
     questionText:'1. Do you have a family history of mental illness?',
@@ -81,7 +83,7 @@ const handleAnswerButtonClick = () => {
     setCurrentQuestion(nextQuestion);
   }
   else{
-    alert("Test completed!")
+    alert("Test completed");
   }
 }
   return (

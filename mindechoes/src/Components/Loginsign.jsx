@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import './login.css'
+import Navbar from './Navbar';
 export const App= () =>{
     const  [action,setAction]=useState('Sign Up'); 
   return (
+    <>
+    <Navbar></Navbar>
     <div  className='containera'>
     <div className='headera'>
       <div className='texta'>{action}</div>
@@ -25,6 +28,7 @@ export const App= () =>{
       <div className={action==='Sign Up'?'submit gray':'submit'}onClick={()=>{setAction('Log In')}}>Log In</div>
     </div>
     </div>
+    </>
   );
 }
 
